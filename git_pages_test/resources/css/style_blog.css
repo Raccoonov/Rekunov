@@ -1,0 +1,126 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+section.tile {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section.tile img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+section.tile h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+section.tile h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+section.tile p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 50px 10px;
+    }
+
+    section.tile {
+        margin-bottom: 30px;
+    }
+
+    section.tile h2 {
+        font-size: 1.8rem;
+    }
+
+    section.tile h3 {
+        font-size: 1.3rem;
+    }
+
+    section.tile p {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section.tile img {
+        max-width: 300px;
+    }
+
+    section.tile h2 {
+        font-size: 1.5rem;
+    }
+
+    section.tile h3 {
+        font-size: 1.2rem;
+    }
+
+    section.tile p {
+        font-size: 1rem;
+    }
+}
