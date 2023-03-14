@@ -1,3 +1,5 @@
+/* Main styles */
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #ffffff;
@@ -62,6 +64,8 @@ body {
     font-size: 1.1rem;
   }
 
+/* project tiles styles  */
+
   .project-tiles {
     display: flex;
     flex-wrap: wrap;
@@ -112,4 +116,35 @@ body {
     color: #333333;
     border: 1px solid #333333;
     }
+
+/* Blog page tile styles */
+
+    section.tile {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
     
+    section.tile img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    section.tile h2 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    section.tile h3 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    
+    section.tile p {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
