@@ -64,6 +64,12 @@ body {
     font-size: 1.1rem;
   }
 
+  footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+
 /* project tiles styles  */
 
   .project-tiles {
@@ -150,57 +156,3 @@ body {
     }
 
 /* Blog Page Responsive Styles */
-
-    
-/* Blog Page Media Queries */
-
-@media only screen and (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav li {
-        margin: 10px 0;
-    }
-
-    main {
-        padding: 50px 10px;
-    }
-
-    section.tile {
-        margin-bottom: 30px;
-    }
-
-    section.tile h2 {
-        font-size: 1.8rem;
-    }
-
-    section.tile h3 {
-        font-size: 1.3rem;
-    }
-
-    section.tile p {
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    section.tile img {
-        max-width: 300px;
-    }
-
-    section.tile h2 {
-        font-size: 1.5rem;
-    }
-
-    section.tile h3 {
-        font-size: 1.2rem;
-    }
-
-    section.tile p {
-        font-size: 1rem;
-    }
-}
-
-/*     */
