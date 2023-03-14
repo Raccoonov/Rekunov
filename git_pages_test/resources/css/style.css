@@ -156,3 +156,27 @@ body {
     }
 
 /* Blog Page Responsive Styles */
+
+.blogtile {
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blogtile h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .blogtile h3 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .blogtile p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
